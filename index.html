@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="logo.png">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <title>Jr. Costela de Pariz</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css">  
+    </head>
+    <body>
+    <!-- Este código é protegido pelos direitos altorais, não deve ser usado e nem copiado sem a altorização do altor.-->
+    <section id="inicio">
+        <div class="img-inicio"><img src="logo.png" alt=""></div>
+        <div class="texto">
+            <h1>Jr. Costela de Pariz</h1>
+            <h2>Cantor de hip-hop</h2>
+            <p>Um artista que vive a música com intensidade, expressando sua essência através do canto e da criatividade.</p>
+        </div>
+    </section>
+    <section id="redes">
+        <a href="" class="item">
+            <i class="fab fa-instagram"></i>
+            <h3>Instagram</h3>
+        </a>
+        <a href="" class="item">
+            <i class="fab fa-youtube"></i>
+            <h3>Youtube</h3>
+        </a>
+        <a href="" class="item">
+            <i class="fab fa-tiktok"></i>
+            <h3>Tiktok</h3>
+        </a>
+    </section>
+    <h2 class="titulo">Meus links</h2>
+    <section id="links">
+        <a href="">
+            <i class="fa-brands fa-spotify"></i>
+            <h3>Minha play list</h3>
+        </a>
+        <a href="">
+            <i class="fa-solid fa-tag"></i>
+            <h3>Cupom de desconto na (loja)</h3>
+        </a>
+    </section>
+    <section id="destaque">
+        <div>
+            <i class="fa-solid fa-microphone"></i>
+            <h3>Cantar e compor</h3>
+            <p>Colocar sentimento na voz e transmitir emoção em cada nota.</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-video"></i>
+            <h3>Gravar vídeos</h3>
+            <p> Registrar ideias e momentos para transformar em arte.</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-book"></i>
+            <h3>Ler e estudar</h3>
+            <p>Buscar sempre mais conhecimento e evolução pessoal.</p>
+        </div>
+    </section>
+    <section id="quiz">
+        <div class="perfil">
+            <h3>Você acha que me conhece?</h3>
+            <img src="logo.png" alt="">
+        </div>
+        <h2 id="no">Qual desses eu escolheria?</h2>
+        <div id="pergunta1" class="questao">
+            <h3 onclick="proxima('pergunta2', 'pergunta1'), certo()">Amarelo</h3>
+            <h3 onclick="proxima('pergunta2', 'pergunta1')">Azul</h3>
+            <h3 onclick="proxima('pergunta2', 'pergunta1')">Preto</h3>
+            <h3 onclick="proxima('pergunta2', 'pergunta1')">Rosa</h3>
+        </div>
+        <div id="pergunta2" class="questao">
+            <h3 onclick="proxima('pergunta3', 'pergunta2')">Macarrão</h3>
+            <h3 onclick="proxima('pergunta3', 'pergunta2')">Lazanha</h3>
+            <h3 onclick="proxima('pergunta3', 'pergunta2'), certo()">Carne de panela</h3>
+            <h3 onclick="proxima('pergunta3', 'pergunta2')">Frango frito</h3>
+        </div>
+        <div id="pergunta3" class="questao">
+            <h3 onclick="proxima('pergunta4', 'pergunta3'), fi()">Meu Malvado Favorito</h3>
+            <h3 onclick="proxima('pergunta4', 'pergunta3'), certo(),fi()">As Panteras</h3>
+            <h3 onclick="proxima('pergunta4', 'pergunta3'), fi()">Kung Fu Panda</h3>
+            <h3 onclick="proxima('pergunta4', 'pergunta3'), fi()">Zerando a Vida</h3>
+        </div>
+        <div id="pergunta4" class="final">
+            <h3 id="numero">Das 3 questões você acertou 3</h3>
+        </div>
+    </section>
+    <footer>
+        copyright - Marcos Antonio. Todos os direitos reservados.
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
