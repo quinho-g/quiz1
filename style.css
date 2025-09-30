@@ -259,6 +259,12 @@ a:hover {
     text-align: center;
 }
 
+#numero {
+    text-transform: uppercase;
+    font-family: var(--letra);
+    color: var(--cor1);
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -389,6 +395,7 @@ body {
 }
 
 }
+
 
 
 
